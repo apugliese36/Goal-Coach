@@ -11,10 +11,12 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <h3>Goals</h3>
+      <div style={{margin: '5px'}}>
+        <h3>Goal Coach</h3>
         <AddGoal />
+        <hr />
         <GoalList />
+        <hr />
         <button
           className="btn btn-danger"
           onClick={() => this.signOut()}
@@ -27,7 +29,7 @@ class App extends Component {
 }
 
 function mapStateToProps(state) {
-  console.log('state', state)
+  // console.log('state', state)
   return {}
 }
 

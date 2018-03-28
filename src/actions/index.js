@@ -13,5 +13,5 @@ export function setGoals(goals) {
     type: SET_GOALS,
     goals
   }
-  return actions;
+  return action;
 }

@@ -5,8 +5,8 @@ export default (state = [], action) => {
     case SET_GOALS:
       const { goals } = action;
       return goals;
-      
-    default;
+
+    default:
       return state;
   }
 }
